@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="drawio" version="31.7.0">
+  <diagram id="lsm" name="De la memoria a los segmentos ordenados">
+    <mxGraphModel background="#ffffff" page="1" pageWidth="1200" pageHeight="460">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="De la memoria a los segmentos ordenados" vertex="1" parent="1" style="text;align=left;fontSize=25;fontStyle=1;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=#203040;">
+          <mxGeometry x="30" y="20" width="1140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="node0" value="Escrituras" vertex="1" parent="1" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=19;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=#203040;">
+          <mxGeometry x="30" y="160" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="node1" value="Memtable" vertex="1" parent="1" style="rounded=1;fillColor=#d5e8d4;strokeColor=#6c8ebf;fontSize=19;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=#203040;">
+          <mxGeometry x="330" y="160" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="node2" value="SSTables" vertex="1" parent="1" style="rounded=1;fillColor=#d5e8d4;strokeColor=#6c8ebf;fontSize=19;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=#203040;">
+          <mxGeometry x="630" y="160" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="node3" value="Compactación" vertex="1" parent="1" style="rounded=1;fillColor=#d5e8d4;strokeColor=#6c8ebf;fontSize=19;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=#203040;">
+          <mxGeometry x="930" y="160" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="edge0" value="Agregar" edge="1" parent="1" source="node0" target="node1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endSize=8;exitX=1;exitY=0.5;entryX=0;entryY=0.5;fontSize=14;labelBackgroundColor=#ffffff;strokeColor=#52677a;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" value="Volcar" edge="1" parent="1" source="node1" target="node2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endSize=8;exitX=1;exitY=0.5;entryX=0;entryY=0.5;fontSize=14;labelBackgroundColor=#ffffff;strokeColor=#52677a;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" value="Combinar" edge="1" parent="1" source="node2" target="node3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endSize=8;exitX=1;exitY=0.5;entryX=0;entryY=0.5;fontSize=14;labelBackgroundColor=#ffffff;strokeColor=#52677a;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ref" value="Elaboración propia · Kleppmann, 1.ª ed. (2017). Cap. 3, “SSTables and LSM-Trees”, pp. 76-79." vertex="1" parent="1" style="text;align=left;fontSize=14;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=#203040;">
+          <mxGeometry x="30" y="310" width="1140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="note" value="Ruta de escritura simplificada. Se omiten WAL, lectura, borrados y políticas de compactación." vertex="1" parent="1" style="text;align=left;fontSize=14;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=#203040;">
+          <mxGeometry x="30" y="350" width="1140" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

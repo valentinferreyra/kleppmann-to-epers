@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="drawio" version="30.0.0">
+  <diagram id="perfil" name="Perfil: relaciones y documentos">
+    <mxGraphModel page="1" pageWidth="1200" pageHeight="580" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Un perfil profesional, dos representaciones" vertex="1" parent="1" style="text;align=left;fontStyle=1;fontSize=26;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;fontColor=#203040;">
+          <mxGeometry x="30" y="20" width="1140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rel" value="Relacional: tablas separadas" vertex="1" parent="1" style="swimlane;startSize=50;container=1;pointerEvents=0;collapsible=0;fontStyle=1;fillColor=#dae8fc;strokeColor=#8798a8;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;fontColor=#203040;">
+          <mxGeometry x="30" y="90" width="540" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="doc" value="Documental: datos anidados" vertex="1" parent="1" style="swimlane;startSize=50;container=1;pointerEvents=0;collapsible=0;fontStyle=1;fillColor=#d5e8d4;strokeColor=#8798a8;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;fontColor=#203040;">
+          <mxGeometry x="630" y="90" width="540" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="user" value="Usuario" vertex="1" parent="rel" style="rounded=1;fillColor=#ffffff;strokeColor=#6c8ebf;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;fontColor=#203040;">
+          <mxGeometry x="200" y="90" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rel0" value="Empleos" vertex="1" parent="rel" style="rounded=1;fillColor=#ffffff;strokeColor=#6c8ebf;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;fontColor=#203040;">
+          <mxGeometry x="20" y="230" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ref0" edge="1" parent="rel" source="rel0" target="user" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endSize=8;strokeColor=#6c8ebf;exitX=0.5;exitY=0;entryX=0.2;entryY=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel1" value="Estudios" vertex="1" parent="rel" style="rounded=1;fillColor=#ffffff;strokeColor=#6c8ebf;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;fontColor=#203040;">
+          <mxGeometry x="200" y="230" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ref1" edge="1" parent="rel" source="rel1" target="user" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endSize=8;strokeColor=#6c8ebf;exitX=0.5;exitY=0;entryX=0.5;entryY=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel2" value="Contacto" vertex="1" parent="rel" style="rounded=1;fillColor=#ffffff;strokeColor=#6c8ebf;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;fontColor=#203040;">
+          <mxGeometry x="380" y="230" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ref2" edge="1" parent="rel" source="rel2" target="user" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endSize=8;strokeColor=#6c8ebf;exitX=0.5;exitY=0;entryX=0.8;entryY=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="profile" value="Documento del perfil" vertex="1" parent="doc" style="swimlane;startSize=50;container=1;pointerEvents=0;collapsible=0;fillColor=#ffffff;strokeColor=#82b366;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;fontColor=#203040;">
+          <mxGeometry x="40" y="80" width="460" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="nested0" value="Empleos" vertex="1" parent="profile" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;fontColor=#203040;">
+          <mxGeometry x="20" y="110" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nested1" value="Estudios" vertex="1" parent="profile" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;fontColor=#203040;">
+          <mxGeometry x="160" y="110" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nested2" value="Contacto" vertex="1" parent="profile" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;fontColor=#203040;">
+          <mxGeometry x="300" y="110" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rel-note" value="Las flechas indican referencias al usuario." vertex="1" parent="1" style="text;align=center;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;fontColor=#203040;">
+          <mxGeometry x="30" y="460" width="540" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="doc-note" value="La inclusión indica contención, no flujo de ejecución." vertex="1" parent="1" style="text;align=center;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;fontColor=#203040;">
+          <mxGeometry x="630" y="460" width="540" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="source" value="Elaboración propia · Kleppmann, 1.ª ed. (2017), cap. 2, pp. 30-32.&#10;Vista lógica simplificada: se omiten atributos y cardinalidades detalladas." vertex="1" parent="1" style="text;align=left;fontSize=13;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;fontColor=#203040;">
+          <mxGeometry x="30" y="510" width="1140" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
