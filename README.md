@@ -21,4 +21,3 @@ Guía de estudio en español técnico basada exclusivamente en el libro *Designi
 | 13 | [Persistencia para análisis de datos](13-analitica/README.md) | Cap. 3, “Transaction Processing or Analytics?”, almacenes de datos, esquemas analíticos y almacenamiento por columnas. Alcance acordado para Data Science: únicamente persistencia analítica, sin procesamiento por lotes. |
 | Anexo | [Glosario](glosario/README.md) | Términos de los capítulos seleccionados, con equivalentes en inglés, definición sintética y referencias. |
 
-El orden organiza la lectura como libro de estudio. Cada tema incluye índice local, referencias y navegación. Los diagramas se conservan en formato editable draw.io y
