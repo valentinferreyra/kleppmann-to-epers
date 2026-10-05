@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="drawio" version="31.7.0">
+  <diagram id="patron-geografico" name="Nacimiento y residencia: dos condiciones sobre la misma persona">
+    <mxGraphModel background="#ffffff" page="1" pageWidth="1200" pageHeight="680">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Nacimiento y residencia: dos condiciones sobre la misma persona" vertex="1" parent="1" style="text;align=left;fontSize=26;fontStyle=1;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=#203040;">
+          <mxGeometry x="30" y="20" width="1140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="person" value="La misma&#10;persona" vertex="1" parent="1" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=18;;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=#203040;">
+          <mxGeometry x="30" y="240" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="birth" value="Lugar de nacimiento" vertex="1" parent="1" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=18;;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=#203040;">
+          <mxGeometry x="340" y="100" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="birth-within" value="Pertenencia&#10;0 o más pasos" vertex="1" parent="1" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=18;;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=#203040;">
+          <mxGeometry x="650" y="100" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="birth-target" value="Estados Unidos" vertex="1" parent="1" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=18;;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=#203040;">
+          <mxGeometry x="970" y="100" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="birth-edge" value="Nacimiento" edge="1" parent="1" source="person" target="birth" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endSize=8;fontFamily=Helvetica;fontSize=15;fontColor=#203040;strokeColor=#52677a;labelBackgroundColor=#ffffff;exitX=1;exitY=0.25;entryX=0;entryY=0.5;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="birth-path" value="" edge="1" parent="1" source="birth" target="birth-within" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endSize=8;fontFamily=Helvetica;fontSize=15;fontColor=#203040;strokeColor=#52677a;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="birth-end" value="" edge="1" parent="1" source="birth-within" target="birth-target" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endSize=8;fontFamily=Helvetica;fontSize=15;fontColor=#203040;strokeColor=#52677a;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="residence" value="Lugar de residencia" vertex="1" parent="1" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=18;;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=#203040;">
+          <mxGeometry x="340" y="400" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="residence-within" value="Pertenencia&#10;0 o más pasos" vertex="1" parent="1" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=18;;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=#203040;">
+          <mxGeometry x="650" y="400" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="residence-target" value="Europa" vertex="1" parent="1" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=18;;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=#203040;">
+          <mxGeometry x="970" y="400" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="residence-edge" value="Residencia" edge="1" parent="1" source="person" target="residence" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endSize=8;fontFamily=Helvetica;fontSize=15;fontColor=#203040;strokeColor=#52677a;labelBackgroundColor=#ffffff;exitX=1;exitY=0.75;entryX=0;entryY=0.5;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="residence-path" value="" edge="1" parent="1" source="residence" target="residence-within" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endSize=8;fontFamily=Helvetica;fontSize=15;fontColor=#203040;strokeColor=#52677a;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="residence-end" value="" edge="1" parent="1" source="residence-within" target="residence-target" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endSize=8;fontFamily=Helvetica;fontSize=15;fontColor=#203040;strokeColor=#52677a;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="result" value="La persona satisface el patrón si cumple ambas condiciones.&#10;En el ejemplo del libro, Lucy lo cumple; Alain comparte la residencia, pero no ese origen." vertex="1" parent="1" style="text;align=left;fontSize=18;;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=#203040;">
+          <mxGeometry x="30" y="530" width="1140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="source" value="Elaboración propia · Kleppmann, 1.ª ed. (2017), cap. 2, pp. 52-55.&#10;Descomposición del patrón; no es un plan de ejecución. Las cajas de pertenencia resumen recorridos." vertex="1" parent="1" style="text;align=left;fontSize=14;;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=#203040;">
+          <mxGeometry x="30" y="610" width="1140" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

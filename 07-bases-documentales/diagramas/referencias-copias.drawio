@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="drawio" version="31.7.0">
+  <diagram id="referencias-copias" name="Región compartida: referencias o copias">
+    <mxGraphModel background="#ffffff" page="1" pageWidth="1200" pageHeight="710">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Región compartida: referencias o copias" vertex="1" parent="1" style="text;align=left;fontSize=26;fontStyle=1;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=#203040;">
+          <mxGeometry x="30" y="20" width="1140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="refs" value="Referenciar una entidad común" vertex="1" parent="1" style="swimlane;startSize=50;container=1;pointerEvents=0;collapsible=0;fillColor=#dae8fc;strokeColor=#8798a8;fontSize=19;fontStyle=1;;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=#203040;">
+          <mxGeometry x="30" y="100" width="540" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="region" value="Región&#10;Nombre almacenado aquí" vertex="1" parent="refs" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=18;;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=#203040;">
+          <mxGeometry x="170" y="90" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ref-profile-0" value="Perfil&#10;Identificador de región" vertex="1" parent="refs" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=18;;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=#203040;">
+          <mxGeometry x="30" y="300" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ref-edge-0" value="Referencia" edge="1" parent="refs" source="ref-profile-0" target="region" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endSize=8;fontFamily=Helvetica;fontSize=15;fontColor=#203040;strokeColor=#52677a;labelBackgroundColor=#ffffff;exitX=0.5;exitY=0;entryX=0.25;entryY=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ref-profile-1" value="Perfil&#10;Identificador de región" vertex="1" parent="refs" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=18;;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=#203040;">
+          <mxGeometry x="310" y="300" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ref-edge-1" value="Referencia" edge="1" parent="refs" source="ref-profile-1" target="region" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endSize=8;fontFamily=Helvetica;fontSize=15;fontColor=#203040;strokeColor=#52677a;labelBackgroundColor=#ffffff;exitX=0.5;exitY=0;entryX=0.75;entryY=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="copies" value="Copiar el nombre en los perfiles" vertex="1" parent="1" style="swimlane;startSize=50;container=1;pointerEvents=0;collapsible=0;fillColor=#d5e8d4;strokeColor=#8798a8;fontSize=19;fontStyle=1;;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=#203040;">
+          <mxGeometry x="630" y="100" width="540" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="change" value="Cambio del nombre&#10;de la región" vertex="1" parent="copies" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=18;;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=#203040;">
+          <mxGeometry x="170" y="90" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="copy-profile-0" value="Perfil&#10;Copia del nombre" vertex="1" parent="copies" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=18;;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=#203040;">
+          <mxGeometry x="30" y="300" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="copy-edge-0" value="Actualizar" edge="1" parent="copies" source="change" target="copy-profile-0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endSize=8;fontFamily=Helvetica;fontSize=15;fontColor=#203040;strokeColor=#52677a;labelBackgroundColor=#ffffff;exitX=0.25;exitY=1;entryX=0.5;entryY=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="copy-profile-1" value="Perfil&#10;Copia del nombre" vertex="1" parent="copies" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=18;;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=#203040;">
+          <mxGeometry x="310" y="300" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="copy-edge-1" value="Actualizar" edge="1" parent="copies" source="change" target="copy-profile-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endSize=8;fontFamily=Helvetica;fontSize=15;fontColor=#203040;strokeColor=#52677a;labelBackgroundColor=#ffffff;exitX=0.75;exitY=1;entryX=0.5;entryY=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="left-note" value="Lectura: resolver la referencia.&#10;Cambio de nombre: actualizar la entidad común." vertex="1" parent="1" style="text;align=center;fontSize=17;;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=#203040;">
+          <mxGeometry x="30" y="550" width="540" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="right-note" value="Lectura: el nombre viene con el perfil.&#10;Cambio de nombre: mantener todas las copias." vertex="1" parent="1" style="text;align=center;fontSize=17;;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=#203040;">
+          <mxGeometry x="630" y="550" width="540" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="source" value="Elaboración propia · Kleppmann, 1.ª ed. (2017), cap. 2, pp. 33-35.&#10;Vista conceptual. Las flechas no describen un protocolo de sincronización." vertex="1" parent="1" style="text;align=left;fontSize=14;;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=#203040;">
+          <mxGeometry x="30" y="640" width="1140" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
