@@ -11,7 +11,7 @@ Guía de estudio en español técnico basada exclusivamente en el libro *Designi
 | 3 | [Almacenamiento e índices](03-almacenamiento-indices/README.md) | Cap. 3, “Data Structures That Power Your Database”: índices hash, SSTables, LSM-trees, B-trees y otras estructuras de indexación. |
 | 4 | [Transacciones y ACID](04-transacciones-acid/README.md) | Cap. 7, “The Slippery Concept of a Transaction”, “The Meaning of ACID” y “Single-Object and Multi-Object Operations”. |
 | 5 | [Aislamiento y serializabilidad](05-aislamiento/README.md) | Cap. 7, “Weak Isolation Levels” y “Serializability”. Anomalías, aislamiento de instantánea, 2PL y SSI. |
-| 6 | [Introducción a NoSQL](06-introduccion-nosql/README.md) | Cap. 2, “The Birth of NoSQL” y comparación entre modelos relacional y documental. Panorama de grafos con enlace al tema específico. **Capítulo piloto.** |
+| 6 | [Introducción a NoSQL](06-introduccion-nosql/README.md) | Cap. 2, “The Birth of NoSQL” y comparación entre modelos relacional y documental. Panorama de grafos con enlace al tema específico. |
 | 7 | [Bases documentales](07-bases-documentales/README.md) | Cap. 2, representación documental, relaciones, flexibilidad del esquema, localidad y convergencia de modelos. MongoDB solamente en los ejemplos y observaciones de la edición. |
 | 8 | [Bases orientadas a grafos](08-grafos/README.md) | Cap. 2, “Graph-Like Data Models”, grafos de propiedades, Cypher, consultas en SQL, triple-stores, SPARQL y Datalog. Neo4j en el alcance que presenta el libro. |
 | 9 | [Arquitectura de sistemas de datos](09-arquitectura/README.md) | Cap. 1, sistemas de datos y atributos de calidad. Selección del cap. 8, fallos parciales, redes y límites de detección de fallos como prerrequisito de distribución. |
