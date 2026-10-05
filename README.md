@@ -2,16 +2,6 @@
 
 Guía de estudio en español técnico basada exclusivamente en el libro *Designing Data-Intensive Applications*, de Martin Kleppmann. La página de créditos identifica la primera edición, publicada en marzo de 2017. Las afirmaciones sobre productos, prestaciones y adopción se presentarán en ese contexto histórico.
 
-## Criterios de escritura
-
-- Redactar síntesis originales y fieles. No reproducir ni traducir extensamente capítulos.
-- Usar únicamente el PDF como fuente de contenido técnico. La referencia de learning-notes inspira la jerarquía, sin aportar notas ni explicaciones.
-- Sintetizar los ejemplos del libro, sin agregar ejemplos propios ni tutoriales de herramientas.
-- Agregar diagramas propios de modelos, arquitectura, secuencia o flujo cuando ayuden a explicar el contenido. Cada diagrama indicará las secciones del libro que sintetiza y las simplificaciones realizadas. No se copiarán las figuras originales ni se agregarán componentes o comportamientos ajenos a la fuente.
-- Referenciar capítulo y sección con su título original. Las páginas citadas serán las impresas en el libro, no el contador del PDF.
-- Explicar las diferencias y los compromisos que presenta el autor. No actualizar silenciosamente las afirmaciones de 2017.
-- Mantener un README por tema, con índice local, referencias y enlaces al índice general y a los temas anterior y siguiente.
-
 ## Índice general
 
 | Orden | Tema | Alcance en el libro |
